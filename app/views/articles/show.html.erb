@@ -1,0 +1,10 @@
+<h1><%= @article.title %></h1>
+<p><%= @article.content %></p>
+
+<%= link_to articles_path do %>
+  <i class="fa fa-history"></i> Back to articles
+<% end %>
+
+<%= link_to edit_article_path do %>
+  <i class="far fa-edit"></i> Edit
+<% end %>
